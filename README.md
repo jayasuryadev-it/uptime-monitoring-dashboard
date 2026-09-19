@@ -204,3 +204,6 @@ python -m pytest
 - Notifications (Email, Slack, SMS alerts) are out of scope for v1.
 - Advanced multi-region probing nodes will be introduced in future iterations.
 - DevOps infrastructure (Docker, Terraform, Ansible, CI/CD, AWS) will be added manually in subsequent project phases.
+
+## Development
+Feature development happens on the develop branch.
