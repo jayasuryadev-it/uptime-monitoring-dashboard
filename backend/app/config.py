@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
 
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/uptime_db"
+    DATABASE_URL: str
 
     # Security
     SECRET_KEY: str = "default_secret_key_change_in_production_min_32_bytes_long"
