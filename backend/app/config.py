@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 1 day
 
     # CORS
-    CORS_ORIGINS: Union[List[str], str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
+    CORS_ORIGINS: Union[List[str], str] = ["http://localhost:3000",  "http://127.0.0.1:3000", "https://uptime-monitoring-dashboard-f6gj.vercel.app"]
 
     @field_validator("DATABASE_URL", mode="before")
     @classmethod
